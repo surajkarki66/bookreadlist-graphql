@@ -1,0 +1,60 @@
+Arguments: 
+  /home/michaelkarki/.nvm/versions/node/v16.17.0/bin/node /home/michaelkarki/.nvm/versions/node/v16.17.0/bin/yarn install
+
+PATH: 
+  /home/michaelkarki/.local/share/pnpm:/home/michaelkarki/.nvm/versions/node/v16.17.0/bin:/home/michaelkarki/.local/bin:/sbin:/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/michaelkarki/Documents/MyWorkspace/bookreadlist-graphql/server/package.json: Unexpected token } in JSON at position 686
+      at JSON.parse (<anonymous>)
+      at /home/michaelkarki/.nvm/versions/node/v16.17.0/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/home/michaelkarki/.nvm/versions/node/v16.17.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/michaelkarki/.nvm/versions/node/v16.17.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "description": "This is a backend of the app.",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/surajkarki66/bookreadlist-graphql"
+    },
+    "keywords": [
+      "GraphQL"
+    ],
+    "author": "SurajKarki",
+    "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/surajkarki66/bookreadlist-graphql/issues"
+    },
+    "homepage": "https://github.com/surajkarki66/bookreadlist-graphql#readme",
+    "dependencies": {
+      "express": "^4.18.2",
+      "express-graphql": "^0.12.0",
+      "graphql": "^16.6.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.20",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
